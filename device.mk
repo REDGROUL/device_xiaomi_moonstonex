@@ -559,4 +559,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
+$(call inherit-product, vendor/poco/moonstone/moonstone-vendor.mk)
