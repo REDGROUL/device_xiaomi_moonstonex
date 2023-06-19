@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/veux
+DEVICE_PATH := device/xiaomi/moonstone
 
 # A/B
 AB_OTA_UPDATER := true
