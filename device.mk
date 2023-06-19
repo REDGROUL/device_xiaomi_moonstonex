@@ -316,28 +316,28 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlayVeux \
-    DialerOverlayVeux \
-    FrameworksResOverlayVeux \
-    SettingsOverlayVeux \
-    SettingsProviderOverlayVeux \
-    SettingsProviderOverlayS88006AA1 \
-    SettingsProviderOverlayS88007AA1 \
-    SettingsProviderOverlayS88007EA1 \
-    SettingsProviderOverlayS88008BA1 \
-    SettingsProviderOverlayS88106BA1 \
-    SettingsProviderOverlayS88107BA1 \
-    SystemUIOverlayVeux \
-    SimpleDeviceConfigOverlayVeux \
-    TelephonyOverlayVeux \
-    WifiOverlayVeux \
-    WifiOverlayS88006AA1 \
-    WifiOverlayS88007AA1 \
-    WifiOverlayS88007EA1 \
-    WifiOverlayS88008BA1 \
-    WifiOverlayS88106BA1 \
-    WifiOverlayS88107BA1
+#PRODUCT_PACKAGES += \
+#    CarrierConfigOverlayVeux \
+#    DialerOverlayVeux \
+#    FrameworksResOverlayVeux \
+#    SettingsOverlayVeux \
+#    SettingsProviderOverlayVeux \
+#    SettingsProviderOverlayS88006AA1 \
+#    SettingsProviderOverlayS88007AA1 \
+#    SettingsProviderOverlayS88007EA1 \
+#    SettingsProviderOverlayS88008BA1 \
+#    SettingsProviderOverlayS88106BA1 \
+#    SettingsProviderOverlayS88107BA1 \
+#    SystemUIOverlayVeux \
+#    SimpleDeviceConfigOverlayVeux \
+#    TelephonyOverlayVeux \
+#    WifiOverlayVeux \
+#    WifiOverlayS88006AA1 \
+#    WifiOverlayS88007AA1 \
+#    WifiOverlayS88007EA1 \
+#    WifiOverlayS88008BA1 \
+#    WifiOverlayS88106BA1 \
+#    WifiOverlayS88107BA1
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
