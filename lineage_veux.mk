@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,26 +8,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-TARGET_USES_AOSP_RECOVERY := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_SUPPORTS_QUICK_TAP := true
-
-# Inherit from veux device
-$(call inherit-product, device/xiaomi/veux/device.mk)
-
-# Inherit some common LineageOS Stuff
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_veux
-PRODUCT_DEVICE := veux
+# Inherit from device
+$(call inherit-product, device/xiaomi/moonstone/device.mk)
+
+PRODUCT_NAME := lineage_moonstone
+PRODUCT_DEVICE := moonstone
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO X4 Pro 5G
+PRODUCT_MODEL := POCO X5
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="veux-user 12 SKQ1.211006.001 V13.0.7.0.SKCMIXM release-keys"
+    PRIVATE_BUILD_DESC="qssi-user 12 SKQ1.220303.001 V13.0.7.0.SMPMIXM release-keys"
 
-BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.7.0.SKCMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/moonstone_p_global/moonstone:12/SKQ1.220303.001/V13.0.7.0.SMPMIXM:user/release-keys
