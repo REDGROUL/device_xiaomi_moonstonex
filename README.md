@@ -1,4 +1,4 @@
-# Device Tree for POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G (peux/veux)
+# Device Tree for POCO X5 5G
 
 ## Spec Sheet
 
@@ -21,4 +21,4 @@
 
 ## Device Picture
 
-![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://i.ibb.co/4syxpfw/330608dc148bfa50f6326d996d6c8e8b.png "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
+#![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G]#(https://i.ibb.co/4syxpfw/330608dc148bfa50f6326d996d6c8e8b.png "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
